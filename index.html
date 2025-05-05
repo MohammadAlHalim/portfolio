@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Alhalim - Retro Portfolio</title>
+    <style>
+        body {
+            background-color: #000066;
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC');
+            color: #00FF00;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #000033;
+            border: 4px solid #00FF00;
+            padding: 20px;
+            box-shadow: 0 0 20px #00FF00;
+        }
+        
+        h1, h2, h3 {
+            color: #FFFF00;
+            text-shadow: 0 0 5px #00FF00;
+        }
+        
+        h1 {
+            border-bottom: 2px dashed #00FF00;
+            padding-bottom: 10px;
+            font-size: 28px;
+        }
+        
+        h2 {
+            font-size: 22px;
+            margin-top: 30px;
+            background-color: #000044;
+            padding: 5px;
+        }
+        
+        a {
+            color: #00FFFF;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color: #FF00FF;
+        }
+        
+        .blink {
+            animation: blink 1s step-end infinite;
+        }
+        
+        @keyframes blink {
+            from, to { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        
+        .marquee {
+            background-color: #000044;
+            color: #FFFF00;
+            padding: 5px;
+            margin: 10px 0;
+            border: 1px solid #00FF00;
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+        
+        .marquee span {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 15s linear infinite;
+        }
+        
+        @keyframes marquee {
+            0%   { transform: translate(0, 0); }
+            100% { transform: translate(-100%, 0); }
+        }
+        
+        .counter {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #000044;
+            color: #00FF00;
+            padding: 5px;
+            border: 1px solid #00FF00;
+            font-size: 12px;
+        }
+        
+        .project {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-left: 3px solid #00FF00;
+        }
+        
+        .skill-category {
+            margin-bottom: 15px;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .contact-item {
+            background-color: #000044;
+            padding: 5px 10px;
+            border: 1px solid #00FF00;
+        }
+        
+        .construction {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .under-construction {
+            font-size: 24px;
+            color: #FF0000;
+            text-shadow: 0 0 5px #FF0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="marquee">
+            <span>🚀 Welcome to my retro portfolio! 🚀 Last Updated: June 2024 🚀 Best viewed with Netscape Navigator 4.0 🚀</span>
+        </div>
+        
+        <h1>🌐 Mohammad Alhalim – Portfolio</h1>
+        
+        <div class="construction">
+            <img src="https://www.animatedimages.org/data/media/202/animated-construction-image-0016.gif" alt="Under Construction">
+            <div class="under-construction">UNDER CONSTRUCTION</div>
+        </div>
+        
+        <h2>👨‍💻 About Me</h2>
+        <p>I'm a passionate Computer Engineering student at Beirut Arab University, graduating in June 2026. I specialize in AI, embedded systems, and software development. I've completed hands-on projects involving machine learning, IoT automation, microcontrollers, and full-stack development. I'm also an active member in technical communities, continuously learning and building toward a future in AI-powered technology and entrepreneurship.</p>
+        
+        <h2>🎓 Education</h2>
+        <p><strong>Bachelor in Computer Engineering</strong><br>
+        Beirut Arab University<br>
+        <em>June 2022 – June 2026</em><br>
+        Relevant coursework: Data Structures & Algorithms, Digital Systems, Machine Learning, Embedded Systems</p>
+        
+        <p><strong>Lebanese Baccalaureate – Life Sciences</strong><br>
+        <em>July 2022</em></p>
+        
+        <h2>🚀 Projects</h2>
+        <div class="project">
+            <h3>✅ Smart Home Automation System (2024)</h3>
+            <p>IoT-based system using ESP, Raspberry Pi, MQTT, Blynk app, and LangChain for voice-controlled AI automation of home functions, gardening, and surveillance.</p>
+        </div>
+        
+        <div class="project">
+            <h3>✅ PC E-Commerce Website with AI Integration (2025)</h3>
+            <p>Built with Saleor framework. Includes AI models for product recognition via image and budget-based PC build recommendation.</p>
+        </div>
+        
+        <div class="project">
+            <h3>✅ Heart Stroke Prediction (2023)</h3>
+            <p>Used AI models in Python to predict stroke likelihood based on medical data, focusing on supervised ML techniques.</p>
+        </div>
+        
+        <div class="project">
+            <h3>✅ Bank Management System (2023)</h3>
+            <p>Java-based application for customer and transaction management with account creation, login, and operations.</p>
+        </div>
+        
+        <div class="project">
+            <h3>✅ Morse Code Communication System (2022)</h3>
+            <p>Designed with PIC microcontroller to enable ship-to-ship communication using Morse encoding and decoding.</p>
+        </div>
+        
+        <div class="project">
+            <h3>✅ Car Rental Management System (2022)</h3>
+            <p>Built using Python and C to manage inventory, customer details, and rental logs with a GUI and database.</p>
+        </div>
+        
+        <h2>🏆 Certifications</h2>
+        <ul>
+            <li>Supervised Machine Learning: Regression and Classification – DeepLearning.AI (Jan 2025)</li>
+            <li>Advanced Learning Algorithms – DeepLearning.AI (Feb 2025)</li>
+            <li>AI Fundamentals – IBM SkillsBuild (Aug 2024)</li>
+            <li>Python Essentials 1 – Cisco (Aug 2024)</li>
+            <li>Introduction to Data Science – Cisco (Aug 2024)</li>
+            <li>Introduction to Front-End Development – META (June 2023)</li>
+            <li>IC3 Digital Literacy – CentrePort (Feb 2024)</li>
+        </ul>
+        
+        <h2>🔧 Skills</h2>
+        <div class="skill-category">
+            <h3>💻 Technical Skills</h3>
+            <p><strong>Languages:</strong> Python, Java, C/C++, Assembly (PIC)</p>
+            <p><strong>Concepts:</strong> OOP, Data Structures, Algorithms</p>
+            <p><strong>Tools & Frameworks:</strong> TensorFlow, Keras, SQL, Git, Jupyter, MATLAB</p>
+            <p><strong>Hardware/IoT:</strong> Digital Systems, Microcontrollers, ESP32, Raspberry Pi, MQTT, Wokwi</p>
+        </div>
+        
+        <div class="skill-category">
+            <h3>🧠 Soft Skills</h3>
+            <p>Problem Solving • Teamwork • Critical Thinking • Adaptability • Continuous Learning</p>
+        </div>
+        
+        <div class="skill-category">
+            <h3>🌐 Languages</h3>
+            <p><strong>Arabic:</strong> Native</p>
+            <p><strong>English:</strong> Fluent</p>
+        </div>
+        
+        <div class="skill-category">
+            <h3>🌟 Leadership & Activities</h3>
+            <p>IEEE Student Chapter – Active Member</p>
+            <p>AI & Robotics Club – Social Media Leader</p>
+            <p>Project Management Institute – Student Member</p>
+        </div>
+        
+        <h2>🔗 Contact</h2>
+        <div class="contact-info">
+            <div class="contact-item">📧 <a href="mailto:mohammadahlalim@outlook.com">mohammadahlalim@outlook.com</a></div>
+            <div class="contact-item">📱 +961 71 484 164</div>
+            <div class="contact-item">💼 <a href="#" target="_blank">LinkedIn</a></div>
+            <div class="contact-item">💻 <a href="#" target="_blank">GitHub</a></div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <img src="https://www.animatedimages.org/data/media/202/animated-email-image-0184.gif" alt="Email me">
+            <p>You are visitor number: <span id="visitor-count">0001</span></p>
+            <p class="blink">>>> Last updated: June 2024 <<<</p>
+        </div>
+    </div>
+    
+    <div class="counter">
+        <div>🕒 <span id="time">00:00:00</span></div>
+        <div>📅 <span id="date">01/01/2000</span></div>
+    </div>
+    
+    <script>
+        // Visitor counter
+        let visitorCount = localStorage.getItem('visitorCount') || 0;
+        visitorCount++;
+        localStorage.setItem('visitorCount', visitorCount);
+        document.getElementById('visitor-count').textContent = visitorCount.toString().padStart(4, '0');
+        
+        // Clock
+        function updateClock() {
+            const now = new Date();
+            const time = now.toLocaleTimeString();
+            const date = now.toLocaleDateString();
+            document.getElementById('time').textContent = time;
+            document.getElementById('date').textContent = date;
+        }
+        
+        setInterval(updateClock, 1000);
+        updateClock();
+        
+        // Blinking cursor effect
+        const cursor = document.createElement('span');
+        cursor.className = 'blink';
+        cursor.textContent = '_';
+        document.body.appendChild(cursor);
+        
+        // Random background stars
+        function createStars() {
+            const stars = ['★', '☆', '✧', '✦', '✯', '✵'];
+            for (let i = 0; i < 50; i++) {
+                const star = document.createElement('div');
+                star.textContent = stars[Math.floor(Math.random() * stars.length)];
+                star.style.position = 'fixed';
+                star.style.left = Math.random() * 100 + 'vw';
+                star.style.top = Math.random() * 100 + 'vh';
+                star.style.color = ['#00FF00', '#FFFF00', '#FF00FF', '#00FFFF'][Math.floor(Math.random() * 4)];
+                star.style.opacity = Math.random();
+                star.style.fontSize = (Math.random() * 10 + 10) + 'px';
+                star.style.zIndex = '-1';
+                document.body.appendChild(star);
+                
+                // Make some stars twinkle
+                if (Math.random() > 0.7) {
+                    setInterval(() => {
+                        star.style.opacity = Math.random();
+                    }, Math.random() * 2000 + 1000);
+                }
+            }
+        }
+        
+        createStars();
+    </script>
+</body>
+</html>
